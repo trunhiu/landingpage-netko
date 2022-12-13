@@ -38,3 +38,10 @@ $(document).ready(function () {
     ],
   });
 });
+
+const menuSidebarIcon = document.querySelector(".btn-sidebar");
+const menuSidebarSelect = document.querySelector(".menu-sidebar");
+
+menuSidebarIcon.addEventListener("click", function () {
+  menuSidebarSelect.classList.toggle("menu-sidebar-none");
+});
